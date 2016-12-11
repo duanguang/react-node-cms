@@ -1,0 +1,31 @@
+{
+  "compileOnSave": true,
+  "buildOnSave": true,
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "noImplicitAny": false,
+    //    "noEmitOnError": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "sourceMap": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noResolve": true,
+    "moduleResolution": "classic",
+   // "moduleResolution": "node"
+    //    "noEmitHelpers": true
+    "pretty": true
+  },
+  "filesGlob": [
+    "**/*.ts",
+    "**/*.tsx",
+    "!node_modules/**/*.ts"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "examples",
+    "client/src"
+  ]
+}

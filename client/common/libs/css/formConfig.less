@@ -1,0 +1,64 @@
+
+@FormSignin:form-signin;
+
+.@{FormSignin}{
+  max-width: 330px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  p{
+    text-align: left;
+    color: #b6b6b6;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  a,a:hover{
+    color: #6bc5a4;
+  }
+  &-heading{
+    margin: 0;
+    padding: 25px 15px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+  }
+  &-sign-title{
+    font-size: 24px;
+    color: #b72828;
+    position: relative;
+    top: 0px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+  }
+  &.checkbox{
+    margin-bottom: 14px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    left: 0;
+  }
+  &.checkbox {
+     a,a:hover{
+       color: #fff;
+     }
+  }
+  &.form-control{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    :focus{
+      z-index: 2;
+    }
+  }
+}

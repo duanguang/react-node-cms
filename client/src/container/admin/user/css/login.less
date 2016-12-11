@@ -1,0 +1,51 @@
+@import (reference) '../../../../public/css/config.less';
+
+@REGIST_WIDTH:1190PX;
+
+@LoginForm:Login-form;
+
+.@{LoginForm}{
+  width: 100%;
+  margin: 0 auto;
+  background: #65cea7 url("../../../../../common/libs/images/login-bg.jpg") no-repeat fixed;
+  background-size: cover;
+  height: 100%;
+  padding: 80px 5px;
+  &-icon{
+    position: absolute;
+    left: 5px;
+    top:5px;
+    font-size: 20px;
+  }
+  &-user {
+    input {
+      font-size: 14px;
+      padding-left: 30px;
+    }
+  }
+  &-captcha{
+    overflow: hidden;
+    font-size: 0;
+  }
+  &-captcha-input{
+    display: inline-block;
+    vertical-align: top;
+    input{
+      font-size: 14px;
+      width: 100px;
+    }
+  }
+  &-captcha-img{
+    vertical-align: top;
+    width: 60px;
+    display: inline-block;
+    margin: 5px 10px;
+  }
+  &-captcha-link {
+    vertical-align: top;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+  }
+}

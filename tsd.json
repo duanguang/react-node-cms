@@ -1,0 +1,123 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "serve-static/serve-static.d.ts": {
+      "commit": "df827a4d96dc999b3ecf113da6afbb49b2c9f0a2"
+    },
+    "express-serve-static-core/express-serve-static-core.d.ts": {
+      "commit": "df827a4d96dc999b3ecf113da6afbb49b2c9f0a2"
+    },
+    "node/node.d.ts": {
+      "commit": "df827a4d96dc999b3ecf113da6afbb49b2c9f0a2"
+    },
+    "express/express.d.ts": {
+      "commit": "df827a4d96dc999b3ecf113da6afbb49b2c9f0a2"
+    },
+    "source-map/source-map.d.ts": {
+      "commit": "2d448c0a3152e8871521848c5c2c61ab4e2a2cc9"
+    },
+    "uglify-js/uglify-js.d.ts": {
+      "commit": "2d448c0a3152e8871521848c5c2c61ab4e2a2cc9"
+    },
+    "webpack/webpack.d.ts": {
+      "commit": "2d448c0a3152e8871521848c5c2c61ab4e2a2cc9"
+    },
+    "react/react.d.ts": {
+      "commit": "544a35a10866b32afda9c7f029c0764558563f4f"
+    },
+    "classnames/classnames.d.ts": {
+      "commit": "14ab703f435375194360cdba3abab61afc879c18"
+    },
+    "react/react-dom.d.ts": {
+      "commit": "e0abafb1a6ff652f7ff967120e312d5c1916eaef"
+    },
+    "react-router/react-router.d.ts": {
+      "commit": "067edc80b9b70a1a4f342a53e7dc1dd00708d3fd"
+    },
+    "react-router/history.d.ts": {
+      "commit": "067edc80b9b70a1a4f342a53e7dc1dd00708d3fd"
+    },
+    "lodash/lodash.d.ts": {
+      "commit": "b23be2ea02ada07cdae30f3ec88dfd6a53286685"
+    },
+    "react-redux/react-redux.d.ts": {
+      "commit": "544a35a10866b32afda9c7f029c0764558563f4f"
+    },
+    "redux/redux.d.ts": {
+      "commit": "067edc80b9b70a1a4f342a53e7dc1dd00708d3fd"
+    },
+    "redux-thunk/redux-thunk.d.ts": {
+      "commit": "544a35a10866b32afda9c7f029c0764558563f4f"
+    },
+    "es6-promise/es6-promise.d.ts": {
+      "commit": "544a35a10866b32afda9c7f029c0764558563f4f"
+    },
+    "chai/chai.d.ts": {
+      "commit": "067edc80b9b70a1a4f342a53e7dc1dd00708d3fd"
+    },
+    "react-router-redux/react-router-redux.d.ts": {
+      "commit": "067edc80b9b70a1a4f342a53e7dc1dd00708d3fd"
+    },
+    "react/react-addons-transition-group.d.ts": {
+      "commit": "e0abafb1a6ff652f7ff967120e312d5c1916eaef"
+    },
+    "react/react-addons-css-transition-group.d.ts": {
+      "commit": "e0abafb1a6ff652f7ff967120e312d5c1916eaef"
+    },
+    "form-data/form-data.d.ts": {
+      "commit": "473232e5dbd179e9ee682fab12f796720f37b118"
+    },
+    "mime/mime.d.ts": {
+      "commit": "df827a4d96dc999b3ecf113da6afbb49b2c9f0a2"
+    },
+    "request/request.d.ts": {
+      "commit": "473232e5dbd179e9ee682fab12f796720f37b118"
+    },
+    "superagent/superagent.d.ts": {
+      "commit": "0d1048c7bbac722c592c5e9af54e310fc5658053"
+    },
+    "cors/cors.d.ts": {
+      "commit": "23c9f2230960c4a9b83e4297471d082a27d02b74"
+    },
+    "body-parser/body-parser.d.ts": {
+      "commit": "23c9f2230960c4a9b83e4297471d082a27d02b74"
+    },
+    "errorhandler/errorhandler.d.ts": {
+      "commit": "ddc0afa3149b24a0ff64fc80afd045cffdda3ecf"
+    },
+    "node-notifier/node-notifier.d.ts": {
+      "commit": "ddc0afa3149b24a0ff64fc80afd045cffdda3ecf"
+    },
+    "serve-favicon/serve-favicon.d.ts": {
+      "commit": "ddc0afa3149b24a0ff64fc80afd045cffdda3ecf"
+    },
+    "morgan/morgan.d.ts": {
+      "commit": "ddc0afa3149b24a0ff64fc80afd045cffdda3ecf"
+    },
+    "bluebird/bluebird.d.ts": {
+      "commit": "88c0d5f868bc184d70b6799d36b1946787beb48d"
+    },
+    "es6-shim/es6-shim.d.ts": {
+      "commit": "1b21ed5d2ed3afb3b2be9a3ef8b17ae2a52a4c27"
+    },
+    "object-hash/object-hash.d.ts": {
+      "commit": "0c5c7a2d2bd0ce7dcab963a8402a9042749ca2da"
+    },
+    "fastclick/fastclick.d.ts": {
+      "commit": "7c9f3114a756f052ca10caba615540d7b5eb19be"
+    },
+    "object-assign/object-assign.d.ts": {
+      "commit": "8a84aefa0406e2002465fa460620d6449c58af01"
+    },
+    "cookie-parser/cookie-parser.d.ts": {
+      "commit": "df827a4d96dc999b3ecf113da6afbb49b2c9f0a2"
+    },
+    "isomorphic-fetch/isomorphic-fetch.d.ts": {
+      "commit": "b8ce9ae1af592fba2040cac0854b2a186ebfa534"
+    }
+  }
+}

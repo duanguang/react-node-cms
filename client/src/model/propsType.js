@@ -1,0 +1,4 @@
+export class PropsType {
+    constructor() {
+    }
+}

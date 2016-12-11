@@ -1,0 +1,20 @@
+{
+   "name": "schema",
+   "scan": "",
+   "beans": [{
+      "id":"UserSchema",
+      "func": "UserSchema",
+      "scope": "singleton",
+      "lazy":true
+   },{
+      "id":"BlogCateSchema",
+      "func":"BlogCateSchema",
+      "scope":"singleton",
+      "lazy":true
+   },{
+      "id":"ContentSchema",
+      "func":"ContentSchema",
+      "scope":"singleton",
+      "lazy":true
+   }]
+}

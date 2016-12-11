@@ -1,0 +1,14 @@
+{
+  "name": "websolution",
+  "scan": "server",
+  "imports": [
+    "server/testServer/beans.json",
+    "server/schema/beans.json",
+    "server/mongoserver/beans.json"
+  ],
+  "beans": [{
+    "id":"dataBaseConnect",
+    "func": "server/dataBaseConnect",
+    "scope": "singleton"
+  }]
+}

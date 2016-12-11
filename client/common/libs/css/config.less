@@ -1,0 +1,363 @@
+/*********** screen配置 ***********/
+@screen: 750; //设计图宽度
+@remSize: 75; //1rem对应的px值(设计图按照750计算)
+
+.toRem (@self) {
+  @rem: @self/@remSize*1rem;
+}
+
+//转换为百分比
+.toPercentage (@numerato, @denominator) {
+  @percentage: @numerato/@denominator*100%;
+}
+
+//border-radius 
+.borderRadius (@radius) {
+  border-radius: @radius/@remSize*1rem;
+}
+
+//外边距rem换算
+.marginTop(@slef) {
+  margin-top: @slef/@remSize*1rem;
+}
+
+.marginRight(@slef) {
+  margin-right: @slef/@remSize*1rem;
+}
+
+.marginBottom(@slef) {
+  margin-bottom: @slef/@remSize*1rem;
+}
+
+.marginLeft(@slef) {
+  margin-left: @slef/@remSize*1rem;
+}
+
+.margin(@px) {
+  margin: @px/@remSize*1rem;
+}
+
+.margin2(@vertical, @horizontal) {
+  margin: @vertical/@remSize*1rem @horizontal/@remSize*1rem;
+}
+
+.margin3(@top, @right, @bottom) {
+  margin: @top/@remSize*1rem @right/@remSize*1rem @bottom/@remSize*1rem 0;
+}
+
+.margin4(@top, @right, @bottom, @left) {
+  margin: @top/@remSize*1rem @right/@remSize*1rem @bottom/@remSize*1rem @left/@remSize*1rem;
+}
+
+.paddingTop(@slef) {
+  padding-top: @slef/@remSize*1rem;
+}
+
+.paddingRight(@slef) {
+  padding-right: @slef/@remSize*1rem;
+}
+
+.paddingBottom(@slef) {
+  padding-bottom: @slef/@remSize*1rem;
+}
+
+.paddingLeft(@slef) {
+  padding-left: @slef/@remSize*1rem;
+}
+
+.padding(@four) {
+  padding: @four/@remSize*1rem
+}
+
+.padding2(@vertical, @horizontal) {
+  padding: @vertical/@remSize*1rem @horizontal/@remSize*1rem;
+}
+
+.padding3(@top, @right, @bottom) {
+  padding: @top/@remSize*1rem @right/@remSize*1rem @bottom/@remSize*1rem 0;
+}
+
+.padding4(@top, @right, @bottom, @left) {
+  padding: @top/@remSize*1rem @right/@remSize*1rem @bottom/@remSize*1rem @left/@remSize*1rem;
+}
+
+.marginP(@slef, @par) {
+  margin: @slef/@par*100% @slef/@par*100% @slef/@par*100% @slef/@par*100%;
+}
+
+.marginTopP(@slef, @par) {
+  margin-top: @slef/@par*100%;
+}
+
+.marginRightP(@slef, @par) {
+  margin-right: @slef/@par*100%;
+}
+
+.marginBottomP(@slef, @par) {
+  margin-bottom: @slef/@par*100%;
+}
+
+.marginLeftP(@slef, @par) {
+  margin-left: @slef/@par*100%;
+}
+
+//内边距百分比换算
+.paddingTopP(@slef, @par) {
+  padding-top: @slef/@par*100%;
+}
+
+.paddingRightP(@slef, @par) {
+  padding-right: @slef/@par*100%;
+}
+
+.paddingBottomP(@slef, @par) {
+  padding-bottom: @slef/@par*100%;
+}
+
+.paddingLeftP(@slef, @par) {
+  padding-left: @slef/@par*100%;
+}
+
+//宽度与高度rem换算
+.widthSingle(@slef) {
+  width: @slef/@remSize*1rem;
+}
+
+.maxWidth(@slef) {
+  max-width: @slef/@remSize*1rem;
+}
+
+.widthP(@slef, @par) {
+  width: @slef/@par*100%;
+}
+
+.width(@slef) {
+  width: @slef/@remSize*1rem;
+  height: @slef/@remSize*1rem;
+}
+
+.heightSingle(@slef) {
+  height: @slef/@remSize*1rem;
+}
+
+.heightP(@slef, @par) {
+  height: @slef/@par*100%;
+}
+
+.minheight(@slef) {
+  min-height: @slef/@remSize*1rem;
+}
+
+;
+//模块百分比换算并水平居中
+.sectionWidth(@slef, @par) {
+  width: @slef/@par*100%;
+  margin: 0 auto;
+}
+
+.sectionHeight(@slef, @par) {
+  height: @slef/@par*100%;
+}
+
+//行高rem换算
+.lineHeight(@slef) {
+  line-height: @slef/@remSize*1rem;
+}
+
+//字体类型
+.fontFamily(@fontType) {
+  font-family: @fontType;
+}
+
+.fontWeight(@fontType) {
+  font-weight: @fontType;
+}
+
+.fontSize(@slef) {
+  font-size: @slef/@remSize*1rem;
+}
+
+.backgroundSize(@width, @height) {
+  -webkit-background-size: @width/@remSize*1rem @height/@remSize*1rem;
+  background-size: @width/@remSize*1rem @height/@remSize*1rem;
+}
+
+.top(@slef) {
+  top: @slef/@remSize*1rem;
+}
+
+.left(@slef) {
+  left: @slef/@remSize*1rem;
+}
+
+.bottom(@slef) {
+  bottom: @slef/@remSize*1rem;
+}
+
+.right(@slef) {
+  right: @slef/@remSize*1rem;
+}
+
+.topP(@slef, @par) {
+  top: @slef/@par*100%;
+}
+
+.leftP(@slef, @par) {
+  left: @slef/@par*100%;
+}
+
+.bottomP(@slef, @par) {
+  bottom: @slef/@par*100%;
+}
+
+.rightP(@slef, @par) {
+  right: @slef/@par*100%;
+}
+
+//边框top/left/right/bottom宽度定义
+.borderTop(@slef) {
+  border-top-width: @slef/@remSize*1rem;
+  @media (max-width: ((@screen/@slef) *1px)) {
+    border-top-width: 1px;
+  }
+}
+
+.borderRight(@slef) {
+  border-right-width: @slef/@remSize*1rem;
+  @media (max-width: ((@screen/@slef) *1px)) {
+    border-right-width: 1px;
+  }
+}
+
+.border(@slef) {
+  border-width: @slef/@remSize*1rem;
+  @media (max-width: ((@screen/@slef) *1px)) {
+    border-width: 1px;
+  }
+}
+
+.border2(@a, @b) {
+  border-width: @a/@remSize*1rem @b/@remSize*1rem;
+  @media (max-width: ((@screen/@slef) *1px)) {
+    border-width: @a/@remSize*1rem @b/@remSize*1rem;
+  }
+}
+
+//border-radius
+.borderRadius(@slef) {
+  border-radius: @slef/@remSize*1rem;
+}
+
+.borderRadiusTr(@slef) {
+  border-top-right-radius: @slef/@remSize*1rem;
+}
+
+.borderRadiusBr(@slef) {
+  border-bottom-right-radius: @slef/@remSize*1rem;
+}
+
+.borderRadiusTl(@slef) {
+  border-top-left-radius: @slef/@remSize*1rem;
+}
+
+.borderRadiusBl(@slef) {
+  border-bottom-left-radius: @slef/@remSize*1rem;
+}
+
+.borderFull(@slef, @style, @color) {
+  border: @slef/@remSize*1rem @style @color;
+}
+
+.borderWidth3(@top, @right, @bottom) {
+  border-width: @top/@remSize*1rem @right/@remSize*1rem @bottom/@remSize*1rem;
+}
+
+.borderLeftWidth(@left) {
+  border-left-width: @left/@remSize*1rem;
+}
+
+.borderRightWidth(@left) {
+  border-right-width: @left/@remSize*1rem;
+}
+
+.borderBottomWidth(@left) {
+  border-bottom-width: @left/@remSize*1rem;
+}
+
+.borderWidthTop(@top) {
+  border-top-width: @top/@remSize*1rem;
+}
+
+//图片width转字体图标字体大小
+.iconFont(@imgWidth) {
+  font-size: @imgWidth * 1.6/@remSize*1rem
+}
+
+//位移
+.translate(@slef1, @slef2, @slef3) {
+  transform: translate3d(@slef1/@remSize*1rem, @slef2/@remSize*1rem, @slef3/@remSize*1rem);
+}
+
+//多行省略号
+.text-elipsis-lines(@lines) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: @lines;
+  -webkit-box-orient: vertical;
+}
+
+.verticalAlign(@px) {
+  vertical-align: @px/@remSize*1rem;
+}
+
+.display-box() {
+  display: -moz-box;
+  display: -webkit-box;
+}
+
+.display-box-flex1() {
+  -moz-box-flex: 1;
+  -webkit-box-flex: 1;
+  box-flex: 1;
+}
+
+.display-box-flex2() {
+  -moz-box-flex: 2;
+  -webkit-box-flex: 2;
+  box-flex: 2;
+}
+
+.display-box-hc() {
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-align: center;
+
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+}
+
+.display-box-vc() {
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-pack: center;
+
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+}
+
+.display-box-hor-justify {
+  -moz-box-pack: justify;
+  -webkit-box-pack: justify;
+  -o-box-pack: justify;
+  box-pack: justify;
+}
+
+.text-elli() {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+

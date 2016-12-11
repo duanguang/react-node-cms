@@ -1,0 +1,282 @@
+html{margin:0;padding:0;border:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);}
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, q, dl, dt, dd, ol, ul, li, fieldset, form, legend, caption, tbody, tfoot, thead, article, aside, dialog, figure, footer, header, hgroup, nav, section{margin:0;padding:0;border:0;font-size:14px;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure, dialog, footer, header, hgroup, menu, nav, section{display:block;}
+body{font-size:14px;color:#333;background:#fff;font-family:"Microsoft YaHei","simsun","Helvetica Neue", Arial, Helvetica, sans-serif;}
+h1, h2, h3, h4, h5 {
+    font-family: 'Open Sans', sans-serif;
+}
+hr {
+    border-color: #ddd;
+}
+.hide{
+    display: none;
+}
+/*body {
+    background: #424f63;
+    font-family: 'Open Sans', sans-serif;
+    color: #7a7676;
+    line-height: 20px;
+    overflow-x: hidden;
+    font-size: 14px;
+}*/
+/*-------------------------------
+            FORM css start
+-------------------------------*/
+.form-signin {
+    max-width: 330px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.form-signin .form-signin-heading {
+    margin: 0;
+    padding: 25px 15px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.form-signin .form-signin-heading img{
+    width: 230px;
+    height: 60px;
+}
+
+.sign-title {
+    font-size: 24px;
+    color: #b72828;
+    position: relative;
+    top: 0px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.form-signin .checkbox {
+    margin-bottom: 14px;
+    font-size: 13px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    left: 0;
+}
+
+.form-signin .checkbox a, .form-signin .checkbox a:hover {
+    color: #fff;
+}
+
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin p {
+    text-align: left;
+    color: #b6b6b6;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.form-signin a, .form-signin a:hover {
+    color: #6bc5a4;
+}
+
+.form-signin a:hover {
+    text-decoration: underline;
+}
+/*-------------------------------
+            FORM css end
+-------------------------------*/
+.login-wrap {
+    padding: 20px;
+    position: relative;
+}
+
+.registration {
+    color: #c7c7c7;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.ant-pwd-strength {
+    display: inline-block;
+    margin-left: 8px;
+    line-height: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+.ant-pwd-strength-item {
+    float: left;
+    margin-right: 1px;
+    margin-top: 12px;
+    width: 19px;
+    height: 8px;
+    line-height: 8px;
+    list-style: none;
+    background-color: #f3f3f3;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.ant-pwd-strength-item-1 {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.ant-pwd-strength-item-2 {
+    width: 20px;
+}
+
+.ant-pwd-strength-item-3 {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-right: 8px;
+}
+
+.ant-pwd-strength-low .ant-pwd-strength-item-1, .ant-pwd-strength-medium .ant-pwd-strength-item-1, .ant-pwd-strength-high .ant-pwd-strength-item-1 {
+    background-color: #FAC450;
+}
+
+.ant-pwd-strength-medium .ant-pwd-strength-item-2, .ant-pwd-strength-high .ant-pwd-strength-item-2 {
+    background-color: rgba(135, 208, 104, .6);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#9987D068,endColorstr=#9987D068);
+}
+
+.ant-pwd-strength-high .ant-pwd-strength-item-3 {
+    background-color: #87D068;
+}
+
+.panel{background:#fff;}
+form .form-group:last-child{padding-bottom:0;}
+.passcode{position:absolute;right:0;top:0;height:32px;margin:1px;border-left:solid 1px #ddd;text-align:center;line-height:32px;border-radius:0 4px 4px 0;}
+
+
+.lefter{position:relative;float:left;width:180px;margin-right:-180px;background:#e6f2fb;text-align:center;}
+.righter{float:right;width:100%;padding-top:15px;background:#e6f2fb;}
+.mainer{margin-left:180px;}
+
+.logo{border-bottom:solid 1px #b5cfd9;padding:23px 10px;}
+.logo img{width: 136px;height: 40px}
+
+.admin-navbar{border-bottom:solid 5px #09c;padding:0 15px;}
+.admin-nav li{display:inline-block;}
+.admin-nav ul{display:none;}
+.admin-nav ul li{float:none;display:block;}
+.admin-nav ul ul li{list-style:circle;margin-left:15px;}
+.admin-nav .active a{background:#09c;color:#fff;border-radius:4px 4px 0 0;}
+.admin-nav .active ul{display:block;position:fixed;left:0;width:180px;margin-top:41px;}
+.admin-nav .active ul a{background:transparent;color:#333;border-radius:0;}
+.admin-nav .active .active a{background:#e6f2fb;border-top:solid 1px #b5cfd9;border-bottom:solid 1px #b5cfd9;}
+
+.admin-bread{background:#f2f9fd;border-left:solid 1px #b5cfd9;border-bottom:solid 1px #b5cfd9;line-height:20px;}
+.admin-bread .bread{margin-bottom:0;}
+.admin-bread span{float:right;font-size:12px;color:#666;line-height:36px;}
+
+.admin{padding:30px;background:#fff;position:fixed;border-left:solid 1px #b5cfd9;right:0;bottom:0;top:87px;left:180px; overflow:auto;}
+.admin1{background:#fff;position:fixed;border-left:solid 1px #b5cfd9;right:0;bottom:0;top:87px;left:0px; overflow:auto;width: 180px}
+.alert{margin-bottom:20px;}
+.admin-panel td{line-height:24px;}
+.admin-panel td .button{line-height:16px;}
+.admin-panel .pagination .active{background:#fff;}
+
+
+
+.mtop10 {
+    margin-top: 10px;
+}
+.text-right{text-align:right;}
+.panel{border:solid 1px #ddd;border-radius:4px;}
+.panel-head{background-color:#f5f5f5;padding:10px 15px;border-radius:4px 4px 0 0;border-bottom:solid 1px #ddd;}
+.panel-foot{background-color:#f5f5f5;padding:10px 15px;border-radius:0 0 4px 4px;border-top:solid 1px #ddd;}
+.panel-body{padding:15px;}
+.bread{border-radius:4px;padding:8px 15px;font-size:12px;margin-bottom:15px;color:#999;}
+.bread li{display:inline-block;}
+.bread li:after{content:"\002f";padding:0 8px;color:#ddd;}
+.bread li:last-child:after{content:"";}
+
+.float-right{float:right !important;}
+@media (max-width:760px){
+    .icon-navicon{display:block;}
+    .nav-navicon, .nav.nav-navicon,.navbar-body.nav-navicon{display:none;}
+}
+.nav{list-style:none;padding:5px 0 0 0;margin:0;}
+.nav li{position:relative;}
+.nav a{color:#333;line-height:20px;padding:5px 0;transition:all 1s cubic-bezier(0.175, 0.885, 0.32, 1) 0s;display:block;}
+.nav a:hover{transition:all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1) 0s;}
+.nav .arrow{display:none;}
+.nav .active a{font-weight:bold;}
+.nav-head{font-size:14px;font-weight:bold;height:30px;line-height:30px;}
+@media (min-width:760px){
+    .nav{padding:0;}
+    .nav-inline .nav-head{padding-right:20px;}
+    .nav-inline li{display:inline-block;vertical-align:top;}
+    .nav-inline li a{padding:5px 20px;line-height:20px;display:block;}
+    .nav-inline .nav-more{float:right;}
+    .nav-split .nav-head{height:20px;line-height:20px;}
+    .nav-split li{border-right:solid 1px rgba(0, 0, 0, .20);}
+    .nav-split li a{padding:0px 20px;}
+    .nav-split .nav-head, .nav-split ul li, .nav-split li:last-child{border-right-width:0;}
+    .nav-right{text-align:right;}
+    .nav-right .nav-head{float:left;}
+    .nav-big .nav-head{font-size:18px;height:30px;line-height:30px;padding:0 20px;}
+    .nav-big a{font-size:18px;line-height:30px;}
+    .nav-big.nav-split a{line-height:30px;}
+}
+
+.text-gray, a.text-gray:link, a.text-gray:visited,.button.border-gray,blockquote.border-gray strong,.pager.border-gray a,.pager-prev.border-gray,.pager-next.border-gray
+{color:#999;}
+
+/*=======error====*/
+.error-wrapper {
+    padding-top: 15%;
+}
+.text-center {
+    text-align: center;
+}
+
+.error-wrapper h2 {
+    font-size: 64px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.error-wrapper h3 {
+    font-size: 32px;
+    color: #474747;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 30px;
+    margin-top: 0;
+}
+
+.error-wrapper .back-btn {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+

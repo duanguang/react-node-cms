@@ -1,0 +1,38 @@
+/*
+body{
+    background: #65cea7 url("../../../../../common/libs/images/login-bg.jpg") no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}*/
+@import (reference) '../../../../public/css/config.less';
+.min-width{
+  width: 1190px;
+  margin: auto;
+
+}
+
+@REGIST_WIDTH:1190PX;
+
+@RegistForm:regist-form;
+
+.@{RegistForm}{
+  width: 100%;
+  margin: 0 auto;
+  background: #65cea7 url("../../../../../common/libs/images/login-bg.jpg") no-repeat fixed;
+  background-size: cover;
+  height: 100%;
+  padding: 80px 5px;
+  &-icon{
+    position: absolute;
+    left: 5px;
+    top:5px;
+    font-size: 20px;
+  }
+  &-user {
+    input {
+      font-size: 14px;
+      padding-left: 30px;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+/*********** screen配置 ***********/
+.display-box-hor-justify {
+  -moz-box-pack: justify;
+  -webkit-box-pack: justify;
+  -o-box-pack: justify;
+  box-pack: justify;
+}

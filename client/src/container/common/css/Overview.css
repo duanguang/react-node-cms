@@ -1,0 +1,10 @@
+.overview {
+    padding: 30px;
+}
+.overview-item {
+    font-size: 32px;
+    line-height: 1.5;
+}
+.overview-item a {
+    color: #010101;
+}

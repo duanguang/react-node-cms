@@ -1,0 +1,32 @@
+{
+  "name": "mongodb",
+  "scan": "",
+  "beans": [{
+    "id":"UserInfoServer",
+    "func": "UserInfoServer",
+    "scope": "singleton",
+    "lazy":true
+  },{
+    "id":"UserInfoService",
+    "func": "UserInfoService",
+    "scope": "singleton",
+    "lazy":true
+  },{
+    "id":"SystemMenuService",
+    "func":"SystemMenuService",
+    "scope":"singleton",
+    "lazy":true
+  },{
+    "id":"BlogCateService",
+    "func":"BlogCateService",
+    "scope":"singleton",
+    "lazy":true
+  },
+    {
+      "id":"ContentService",
+      "func":"ContentService",
+      "scope":"singleton",
+      "lazy":true
+    }
+  ]
+}
