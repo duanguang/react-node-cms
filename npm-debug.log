@@ -1,0 +1,37 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\xiaoduan\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@3.10.8
+3 info using node@v4.4.7
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle webSolution@0.0.1~predev: webSolution@0.0.1
+6 silly lifecycle webSolution@0.0.1~predev: no script for predev, continuing
+7 info lifecycle webSolution@0.0.1~dev: webSolution@0.0.1
+8 verbose lifecycle webSolution@0.0.1~dev: unsafe-perm in lifecycle true
+9 verbose lifecycle webSolution@0.0.1~dev: PATH: C:\Users\xiaoduan\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;E:\Project\SvnProject\webclient\react-node-cms\node_modules\.bin;G:\python2.7.12\;G:\python2.7.12\Scripts;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter\Driver;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;G:\sql2012\共享\110\DTS\Binn\;G;\sql2012\共享x86\110\Tools\Binn\;G;\sql2012\共享\110\Tools\Binn\;G;\sql2012\共享x86\110\Tools\Binn\ManagementStudio\;C;\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;G:\sql2012\共享x86\110\DTS\Binn\;C;\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\nodejs\;C:\Program Files\Microsoft\Web Platform Installer\;G:\sql2012\共享\110\Tools\Binn\;C:\Users\xiaoduan\AppData\Roaming\npm
+10 verbose lifecycle webSolution@0.0.1~dev: CWD: E:\Project\SvnProject\webclient\react-node-cms
+11 silly lifecycle webSolution@0.0.1~dev: Args: [ '/d /s /c',
+11 silly lifecycle   'webpack --config webpack-dev-server.js -p & cross-env NODE_ENV=dev node server' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:873:11)
+12 verbose stack     at process.kill (node.js:777:15)
+12 verbose stack     at process.listener (C:\Users\xiaoduan\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:72:20)
+12 verbose stack     at process.emit (events.js:166:7)
+12 verbose stack     at processEmit (C:\Users\xiaoduan\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (C:\Users\xiaoduan\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (node.js:804:46)
+13 verbose cwd E:\Project\SvnProject\webclient\react-node-cms
+14 error Windows_NT 6.1.7601
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\xiaoduan\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "dev"
+16 error node v4.4.7
+17 error npm  v3.10.8
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
