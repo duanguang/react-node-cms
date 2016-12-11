@@ -5,6 +5,6 @@ use:npm install
     前端:npm run dev
     服务端：npm run start
 
-![](https://github.com/duanguang/react-node-cms/client/public/img/1481469229.png)
+![](https://github.com/duanguang/react-node-cms/tree/master/client/public/img/1481469229.png)
 
 
