@@ -3,6 +3,6 @@
 
 use:npm install
     前端:npm run dev
-    服务端：npm run start
-
+    服务端：npm run start
+    登录帐号：admin 密码：kad2015
 ![alt tag](/gif/3404488244.gif)
